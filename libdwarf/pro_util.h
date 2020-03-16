@@ -54,7 +54,7 @@
 /* The following defines are only important for users of the
 ** producer part of libdwarf, and such should have these
 ** defined correctly (as necessary) 
-** by the #include <elf.h> done in pro_incl.h
+** by the #include "elf.h" done in pro_incl.h
 ** before the #include "pro_util.h".
 ** For others producer macros do not matter so 0 is a usable value, and
 ** zero values let compilation succeed on more non-MIPS architectures.

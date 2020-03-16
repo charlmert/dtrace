@@ -35,11 +35,11 @@
 
 
 #ifdef HAVE_ELF_H
-#include <elf.h>
+#include "elf.h"
 #elif defined(HAVE_LIBELF_H) 
 /* On one platform without elf.h this gets Elf32_Rel 
    type defined (a required type). */
-#include <libelf.h>
+#include "libelf.h"
 #endif
 
 /* The target address is given: the place in the source integer

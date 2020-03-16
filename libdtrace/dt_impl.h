@@ -62,7 +62,7 @@ typedef struct objfs_info {
 #include <setjmp.h>
 #include <libctf.h>
 #include <dtrace.h>
-#include <gelf.h>
+#include "gelf.h"
 
 /*
  * In lieu of gelf.h.

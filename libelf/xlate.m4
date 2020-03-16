@@ -28,10 +28,10 @@
 
 #include "syn.h"
 #include <memory.h>
-#include <libelf.h>
-#include <link.h>
+#include "libelf.h"
+#include "link.h"
 #include <decl.h>
-#include <msg.h>
+#include "msg.h"
 
 /*
  * fmsize:  Array used to determine what size the the structures

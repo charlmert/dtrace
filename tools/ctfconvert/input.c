@@ -33,7 +33,7 @@
 #include <stdlib.h>
 #include <fcntl.h>
 #include <unistd.h>
-#include <gelf.h>
+#include "gelf.h"
 #include <strings.h>
 #include <sys/types.h>
 

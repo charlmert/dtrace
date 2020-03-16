@@ -29,7 +29,7 @@
 
 #pragma ident	"@(#)symbol.h	1.2	05/06/08 SMI"
 
-#include <gelf.h>
+#include "gelf.h"
 
 #ifdef __cplusplus
 extern "C" {

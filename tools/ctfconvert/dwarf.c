@@ -87,10 +87,10 @@
 #include <stdlib.h>
 #include <strings.h>
 #include <errno.h>
-#include <libelf.h>
-#include <libdwarf.h>
+#include "libelf.h"
+#include "libdwarf.h"
 #include <libgen.h>
-#include <dwarf.h>
+#include "dwarf.h"
 
 #include "ctf_headers.h"
 #include "ctftools.h"

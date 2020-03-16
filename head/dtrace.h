@@ -43,7 +43,7 @@
 #include <sys/dtrace.h>
 #include <stdarg.h>
 #include <stdio.h>
-#include <gelf.h>
+#include "gelf.h"
 #else /* is Apple Mac OS X */
 
 #if defined(__LP64__)

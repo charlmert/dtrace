@@ -36,8 +36,8 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-#include <libelf.h>
-#include <gelf.h>
+#include "libelf.h"
+#include "gelf.h"
 #include <unistd.h>
 
 #include "ctftools.h"

@@ -34,7 +34,7 @@
 #include <fcntl.h>
 #include <errno.h>
 #include <dlfcn.h>
-#include <gelf.h>
+#include "gelf.h"
 
 static const char *_libctf_zlib = "/usr/lib/libz.dylib";
 

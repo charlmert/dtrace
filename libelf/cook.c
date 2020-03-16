@@ -34,7 +34,7 @@
 #include <stdlib.h>
 #include <sys/mman.h>
 #include <errno.h>
-#include <libelf.h>
+#include "libelf.h"
 #include "decl.h"
 #include "member.h"
 #include "msg.h"

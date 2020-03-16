@@ -35,8 +35,8 @@
  * and then supplements it with the private additions.
  */
 
-#include <libelf.h>
-#include <gelf.h>
+#include "libelf.h"
+#include "gelf.h"
 
 #ifdef	__cplusplus
 extern "C" {

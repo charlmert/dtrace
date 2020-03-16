@@ -42,7 +42,7 @@ typedef int64_t		off64_t;
 #define S_ROUND(x, a)   ((x) + (((a) ? (a) : 1) - 1) & ~(((a) ? (a) : 1) - 1))
 #endif
 
-#include <libelf.h>
+#include "libelf.h"
 #include "link.h" /* In lieu of Solaris <sys/link.h> */
 
 #ifdef _INT64_T

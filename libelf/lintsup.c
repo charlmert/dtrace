@@ -30,6 +30,6 @@
 #pragma ident	"@(#)lintsup.c	1.4	06/04/14 SMI"
 
 #include <malloc.h>
-#include <link.h>
+#include "link.h"
 #include <sgs.h>
 #include <_libelf.h>

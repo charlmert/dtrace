@@ -31,7 +31,7 @@ AC_TRY_COMPILE([#include <sys/types.h>],[  __uint64_t p; p = 3;] ,
 	[Define 1 if sys/types.h defines __uint64_t.]))
 dnl checking for ia 64 types, which might be enums, using HAVE_R_IA_64_DIR32LSB
 dnl to stand in for a small set.
-AC_TRY_COMPILE([#include <elf.h>],[  int p; p = R_IA_64_DIR32LSB;] ,
+AC_TRY_COMPILE([#include "elf.h"],[  int p; p = R_IA_64_DIR32LSB;] ,
   AC_DEFINE(HAVE_R_IA_64_DIR32LSB,1,
 	[Define 1 if  R_IA_64_DIR32LSB is defined (might be enum value).]))
 
@@ -61,7 +61,7 @@ dnl compatibility with cygnus before
 dnl HAVE_DWARF2_99_EXTENSION defined.
 dnl Only applies to producer code, as consumer adapts itself.
 dnl This is not the right test, really.
-AC_TRY_COMPILE([#include <elf.h>],[  int p; p = R_IA_64_DIR32LSB;] ,
+AC_TRY_COMPILE([#include "elf.h"],[  int p; p = R_IA_64_DIR32LSB;] ,
   AC_DEFINE(HAVE_OLD_DWARF2_32BIT_OFFSET,1,
 	[Define 1 if want producer to build with only 32bit section offsets per strict dwarf2] ),
   AC_DEFINE(HAVE_DWARF2_99_EXTENSION,1,

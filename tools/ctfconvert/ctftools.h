@@ -35,8 +35,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
-#include <libelf.h>
-#include <gelf.h>
+#include "libelf.h"
+#include "gelf.h"
 #include <pthread.h>
 
 #ifdef __cplusplus

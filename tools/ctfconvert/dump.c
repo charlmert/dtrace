@@ -51,7 +51,7 @@ const char *progname = "ctfdump";
 #include <stdlib.h>
 #include <stdio.h>
 #include <fcntl.h>
-#include <gelf.h>
+#include "gelf.h"
 #include <zlib.h>
 
 #include "ctf_headers.h"

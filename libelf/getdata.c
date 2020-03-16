@@ -32,7 +32,7 @@
 #include <stdlib.h>
 #include <assert.h>
 #include <errno.h>
-#include <libelf.h>
+#include "libelf.h"
 #include "decl.h"
 #include "msg.h"
 

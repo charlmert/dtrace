@@ -29,7 +29,7 @@
 
 #pragma ident	"@(#)data.c	1.15	08/05/31 SMI"
 
-#include <libelf.h>
+#include "libelf.h"
 #include "decl.h"
 
 /*

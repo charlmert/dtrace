@@ -27,10 +27,10 @@
 #pragma ident	"@(#)xlate64.m4	1.20	08/05/31 SMI"
 
 #include <memory.h>
-#include <libelf.h>
-#include <link.h>
+#include "libelf.h"
+#include "link.h"
 #include <decl.h>
-#include <msg.h>
+#include "msg.h"
 #include <string.h>
 
 /*

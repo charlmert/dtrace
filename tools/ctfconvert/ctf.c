@@ -35,7 +35,7 @@
 #include <strings.h>
 #include <ctype.h>
 #include <zlib.h>
-#include <elf.h>
+#include "elf.h"
 
 #include "ctf_headers.h"
 #include "ctftools.h"

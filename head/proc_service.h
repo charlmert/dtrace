@@ -41,7 +41,7 @@ extern "C" {
 #include <sys/types.h>
 #include "lwp.h" /* In lieu of Solaris <sys/lwp.h> */
 typedef int auxv_t; /* In lieu of Solaris <sys/auxv.h> */
-#include <elf.h>
+#include "elf.h"
 
 struct ssd {			/* In lieu of Solaris <sys/segments.h> */
         unsigned int    sel;   /* descriptor selector */

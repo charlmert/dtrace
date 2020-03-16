@@ -35,7 +35,7 @@
 #include <stdlib.h>
 #include <memory.h>
 #include <errno.h>
-#include <libelf.h>
+#include "libelf.h"
 #include <sys/mman.h>
 #include "decl.h"
 #include "member.h"

@@ -32,8 +32,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <libelf.h>
-#include <gelf.h>
+#include "libelf.h"
+#include "gelf.h"
 #include <errno.h>
 #include <stdarg.h>
 #include <pthread.h>

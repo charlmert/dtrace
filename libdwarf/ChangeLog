@@ -734,7 +734,7 @@ Stan Shebs (shebs@cygnus.com) pointed out that the pro_util.h
 use of R_MIPS* was a problem compiling on Sun.
 Since the producer code is not really used at present except for
 MIPS/sgi, I've added #ifndefs to pro_util.h which provide zero values
-when <elf.h> does not provide the macros.
+when "elf.h" does not provide the macros.
 When anyone needs the producer code to actually *work* for non-MIPS
 something better will have to be done.
 

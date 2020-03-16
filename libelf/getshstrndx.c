@@ -27,9 +27,9 @@
 #pragma ident	"@(#)getshstrndx.c	1.2	05/06/08 SMI"
 
 #include <string.h>
-#include <gelf.h>
+#include "gelf.h"
 #include <decl.h>
-#include <msg.h>
+#include "msg.h"
 
 int
 elf_getshstrndx(Elf *elf, size_t *shstrndx)

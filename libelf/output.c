@@ -35,7 +35,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include <libelf.h>
+#include "libelf.h"
 #include <errno.h>
 #include "decl.h"
 #include "msg.h"

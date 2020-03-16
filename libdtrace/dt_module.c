@@ -42,7 +42,7 @@
 #include <unistd.h>
 #include <strings.h>
 #include <stdlib.h>
-#include <libelf.h>
+#include "libelf.h"
 #include <limits.h>
 #include <assert.h>
 #include <errno.h>

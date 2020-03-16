@@ -42,12 +42,12 @@
 #include <string.h>
 
 #ifdef HAVE_ELF_H
-#include <elf.h>
+#include "elf.h"
 #endif
 
 #include <limits.h>
-#include <libdwarf.h>
-#include <dwarf.h>
+#include "libdwarf.h"
+#include "dwarf.h"
 
 #include "dwarf_base_types.h"
 #include "dwarf_alloc.h"

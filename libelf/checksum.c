@@ -33,7 +33,7 @@
 #pragma ident	"@(#)checksum.c	1.7	08/05/31 SMI"
 
 #include <errno.h>
-#include <libelf.h>
+#include "libelf.h"
 #include "decl.h"
 #include "msg.h"
 

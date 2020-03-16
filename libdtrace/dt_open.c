@@ -34,7 +34,7 @@
 #include <sys/types.h>
 #include <sys/resource.h>
 
-#include <libelf.h>
+#include "libelf.h"
 #include <strings.h>
 #include <alloca.h>
 #include <limits.h>

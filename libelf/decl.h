@@ -57,10 +57,10 @@ typedef pthread_key_t thread_key_t;
 
 #define NOTE(x) /* NOTHING */ /* In lieu of Solaris #include <note.h> */
 
-#include <libelf.h>
+#include "libelf.h"
 #include "machelf.h" /* In lieu of Solaris <sys/machelf.h> */
-#include <gelf.h>
-#include <msg.h>
+#include "gelf.h"
+#include "msg.h"
 
 #include <unistd.h>
 #define PAGESIZE getpagesize()

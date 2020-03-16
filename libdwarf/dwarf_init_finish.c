@@ -38,13 +38,13 @@
 #include "config.h"
 #include "dwarf_incl.h"
 #ifdef HAVE_ELF_H
-#include <elf.h>
+#include "elf.h"
 #endif
 #ifdef __SGI_FAST_LIBELF
 #include <libelf_sgi.h>
 #else
 #ifdef HAVE_LIBELF_H
-#include <libelf.h>
+#include "libelf.h"
 #else
 #ifdef HAVE_LIBELF_LIBELF_H
 #include <libelf/libelf.h>

@@ -16,13 +16,13 @@
 /* Define to 1 if you have the <elfaccess.h> header file. */
 #undef HAVE_ELFACCESS_H
 
-/* Define to 1 if you have the <elf.h> header file. */
+/* Define to 1 if you have the "elf.h" header file. */
 #undef HAVE_ELF_H
 
 /* Define to 1 if you have the <inttypes.h> header file. */
 #undef HAVE_INTTYPES_H
 
-/* Define to 1 if you have the <libelf.h> header file. */
+/* Define to 1 if you have the "libelf.h" header file. */
 #undef HAVE_LIBELF_H
 
 /* Define to 1 if you have the <libelf/libelf.h> header file. */
