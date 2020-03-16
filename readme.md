@@ -45,3 +45,15 @@ xcodebuild install -target ctfconvert -target ctfdump -target ctfmerge \
 ARCHS="x86_64" SRCROOT=$PWD OBJROOT=$PWD/obj SYMROOT=$PWD/sym \
 DSTROOT=$PWD/dust
 ```
+
+Once build succeeded you will get the following message:
+
+```bash
+INSTALL SUCCEEDED ...
+```
+
+You will then need to copy the binaries to /usr/local/bin
+
+```bash
+cp -frv dust/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin/* /usr/local/bin
+```
